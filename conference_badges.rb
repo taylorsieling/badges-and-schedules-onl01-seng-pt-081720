@@ -32,9 +32,6 @@ def printer
   batch_badge_creator.each do |welcome|
     puts welcome
   end
-  assign_rooms.each do |assignments|
-    puts assignments
-  end
 end
 
 printer
