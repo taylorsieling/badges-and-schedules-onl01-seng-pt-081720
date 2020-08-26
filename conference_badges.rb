@@ -26,13 +26,5 @@ def assign_rooms(attendees)
   room_assignments
 end
 
-attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def printer
-  batch_badge_creator.each do |welcome|
-    puts welcome
-  end
-end
-
-printer
 
